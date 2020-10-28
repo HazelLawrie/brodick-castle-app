@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brodick Castle App</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa873fab92.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h1 id="welcome-to-castle">
+            Welcome to Brodick Castle, Garden and Country Park!
+          </h1>
+
+          <h1 id="leave-feedback">
+            <img
+              id="travellers-choice-logo"
+              src="images/TravellersChoiceWhite.svg"
+            />
+            <span id="tripadvisor-text">
+              We hope you enjoy your trip. Please feel free to leave feedback on
+              <a
+                href="https://www.tripadvisor.co.uk/Attraction_Review-g551754-d243007-Reviews-Brodick_Castle_Garden_and_Country_Park-Brodick_Isle_of_Arran_Scotland.html"
+                target="_blank"
+                id="tripadvisor-link"
+                >TripAdvisor</a
+              >.
+            </span>
+          </h1>
+
+          <div class="row">
+            <h2 id="date" class="card-text col-sm date-time"></h2>
+          </div>
+          <h2 id="temp-description" class="card-text col-sm"></h2>
+          <div class="row">
+            <h2 id="main-temp" class="card-text col-sm temp">
+              <img id="main-icon" src="#" alt="" />
+              <span id="displayed-temp"></span
+              ><a href="#" class="col" id="change-to-C">°C</a>
+              <a href="#" id="change-to-F">°F</a>
+            </h2>
+            <p class="today-activity">
+              <strong>Today's Recommended Activity:</strong>
+              <span id="recommended-activity"></span>
+            </p>
+          </div>
+          <hr />
+          <div class="row second-row">
+            <h5 class="col pressure">
+              Pressure:
+              <br />
+              <span id="pressure-value"></span>
+            </h5>
+            <h5 class="col humidity">
+              Humidity:
+              <br />
+              <span id="humidity-value"></span>%
+            </h5>
+
+            <h5 class="col wind-speed">
+              Wind:
+              <br />
+              <span id="wind-value"></span> mph
+            </h5>
+          </div>
+        </div>
+      </div>
+      <p id="three-hour-forecast">Today's Forecast</p>
+
+      <div id="forecast" class="row weekdays first-weekdays"></div>
+
+      <div id="lower-hr"><hr /></div>
+
+      <p id="five-day-forecast">5 Day Forecast</p>
+
+      <div id="forecast-days" class="row weekdays"></div>
+
+      <footer>
+        <h2 id="contact-details">Contact Details</h2>
+        <div class="row">
+          <h2 class="col-4">Address:</h2>
+          <h2 class="col-4">Phone:</h2>
+          <h2 class="col-4">Email:</h2>
+        </div>
+        <div class="row">
+          <h2 id="city" class="col-4">
+            Brodick Castle,<br />
+            Brodick,<br />
+            Isle of Arran,<br />
+            KA27 8DE
+          </h2>
+          <h2 id="city" class="col-4">01770 302202</h2>
+          <h2 id="city" class="col-4">BrodickCastle@nts.org.uk</h2>
+        </div>
+        <p>
+          <a
+            href="https://github.com/HazelLawrie/brodick-castle-app"
+            target="_blank"
+            >Open source-code</a
+          >
+          by
+          <a href="https://www.linkedin.com/in/hazel-lawrie/" target="_blank"
+            >Hazel Lawrie</a
+          >
+          and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+        <a href="https://www.facebook.com/brodickcastle/" target="_blank"
+          ><img
+            class="facebook-logo"
+            src="images/FacebookLogo.png"
+            alt="Facebook Logo"
+        /></a>
+        <a href="https://www.instagram.com/brodickcastle/" target="_blank"
+          ><img
+            class="instagram-logo"
+            src="images/PngItem_20020.png"
+            alt="Instagram Logo"
+        /></a>
+      </footer>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="src/app.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,333 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to bottom, #5367a3 0%, #1a1d4d 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+.card {
+  padding: 30px 30px 0 30px;
+  margin: 80px auto;
+  width: 100%;
+  margin-bottom: 0;
+  background-image: linear-gradient(
+    to bottom,
+    #1a1d4d 0%,
+    #1a1d4d 40%,
+    #5367a3 100%
+  );
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0;
+  max-width: 800px;
+  border-radius: 15px 15px 0 0;
+}
+
+#input {
+  border-radius: 20px 0 0 20px;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer p a:hover {
+  color: #182456;
+}
+
+.brodick-castle-app {
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+}
+
+#welcome-to-castle {
+  font-size: 60px;
+  margin: 0 0 20px 0;
+}
+
+#travellers-choice-logo {
+  float: left;
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+#tripadvisor-text {
+  font-size: 25px;
+}
+
+#tripadvisor-link {
+  color: white;
+  text-decoration: underline;
+}
+#tripadvisor-link:hover {
+  color: rgb(199, 199, 199);
+}
+
+#city {
+  font-size: 30px;
+  margin: 10px 0 20px 0;
+}
+
+#date,
+#temp-description {
+  font-size: 35px;
+  line-height: 34px;
+  text-align: left;
+  margin: 30px 0 10px 0;
+  line-height: 45px;
+  padding: 0 0 0 15px;
+}
+
+#temp-description {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+hr {
+  height: 1px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+#main-icon {
+  margin: 0;
+  width: 100px;
+}
+#main-temp {
+  font-size: 60px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#icon1,
+#icon2 {
+  margin: 0;
+  width: 70px;
+}
+.date-time {
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.card-text:last-child {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+img {
+  margin: 20px 0;
+}
+.today-activity {
+  font-size: 16px;
+}
+.form-control {
+  max-width: 250px;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 20px;
+  border: 0;
+}
+
+.wind-speed,
+.pressure,
+.humidity {
+  margin: 15px;
+  text-align: center;
+
+  font-size: 14px;
+  line-height: 24px;
+}
+#displayed-temp {
+  margin-right: 14px;
+}
+
+#change-to-F,
+#change-to-C {
+  font-size: 20px;
+  padding: 2px 8px;
+  position: relative;
+  top: -26px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6d74d6;
+  transition-duration: 200ms;
+  border-radius: 30px;
+}
+
+#change-to-C {
+  padding: 2px 5px;
+}
+
+#change-to-F:hover,
+#change-to-C:hover {
+  background-color: #393e85;
+  box-shadow: 1px 1px 12px 0 rgb(94, 78, 88, 0.3);
+}
+
+#lower-hr hr {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgb(207, 207, 207);
+  border-radius: 7px;
+  border-top: 0;
+  height: 2px;
+}
+
+#lower-hr {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contact-details {
+  text-align: center;
+  margin: 10px;
+}
+
+#three-hour-forecast,
+#five-day-forecast {
+  text-align: center;
+  font-size: 28px;
+  background: #fff;
+  color: #212025;
+  margin: 0 auto;
+  max-width: 800px;
+  display: block;
+  padding: 30px 0 5px 0;
+}
+
+#forecast-days,
+#forecast {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.forecast-icon {
+  margin: 0;
+}
+
+.weekdays {
+  background: #fff;
+  color: #212025;
+  text-align: center;
+  padding: 35px 20px 0 20px;
+  border-radius: 0 0 12px 12px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+footer {
+  text-align: center;
+  margin: 32px auto 26px auto;
+  max-width: 800px;
+  font-size: 12px;
+  max-width: 800px;
+}
+
+.col-sm {
+  margin-bottom: 30px;
+}
+
+.first-weekdays {
+  border-radius: 0;
+}
+
+.instagram-logo {
+  width: 40px;
+  margin: 0;
+}
+
+.facebook-logo {
+  width: 40px;
+  margin: 0;
+}
+
+.today-activity {
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 579px) {
+  .col-sm {
+    margin: 10px 30px 35px 30px;
+  }
+  #three-hour-forecast {
+    font-size: 25px;
+    padding-top: 24px;
+  }
+  .card {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    margin-top: 0;
+  }
+  #city {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  #date,
+  #temp-description,
+  #main-temp {
+    text-align: center;
+  }
+  #main-temp {
+    padding: 0;
+  }
+  #forecast-days,
+  .card {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #welcome-to-castle {
+    font-size: 45px;
+  }
+  #leave-feedback {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .wind-speed,
+  .pressure,
+  .humidity {
+    margin: 10px 0;
+  }
+  h1 {
+    font-size: 30px;
+    padding: 0;
+  }
+  #lower-hr hr {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .wind-speed,
+  .pressure,
+  .humidity {
+    margin: 10px 30px;
+  }
+  #lower-hr hr {
+    max-width: 250px;
+  }
+}

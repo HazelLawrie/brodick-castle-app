@@ -233,10 +233,19 @@ img {
 
 footer {
   text-align: center;
-  margin: 32px auto 26px auto;
-  max-width: 800px;
+  margin: 50px 0 0 0;
+  padding: 20px;
   font-size: 12px;
-  max-width: 800px;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+footer h2 {
+  font-size: 12px;
+}
+footer .row {
+  max-width: 50%;
 }
 
 .col-sm {
